@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t jangaiman/cicd-pipeline .
     - name: Push to Dockerhub
-      run: docker push jangaiman/cicd-pipeline:tagname
+      run: docker push jangaiman/cicd-pipeline:latest
